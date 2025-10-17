@@ -1,0 +1,41 @@
+h1 {
+  font-family:'Courier New', Courier, monospace;
+  color:rgb(108, 108, 108);
+  
+}
+
+.container {
+max-width: 1080px;
+margin:0 auto;
+   display: grid;
+place-content: center;
+place-items: center; 
+
+}
+
+.container input {
+ margin-bottom: 20px;
+ margin-top: 20px;
+ padding:10px;
+ border-radius: 5px;
+}
+
+.tabs {
+ 
+  cursor: pointer;
+}
+.tabs a {
+   color:rgb(231, 228, 228);
+ padding:10px;
+ margin:5px;
+ background-color: #4D4AE8;
+ border-radius: 10px; 
+ 
+  
+}
+
+@media screen and (max-width:420px){
+  .container h1 {
+    text-align: center;
+  }
+}
